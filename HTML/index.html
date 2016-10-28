@@ -3,7 +3,11 @@
 <head>
     <title>Home</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -70,11 +74,11 @@
         <div class="container">
             <div class="second-container-module">
                 <div class="second-container-left">
-                    <img src="" alt="0" border="0" />
+                    <img src="images/secondcontainer1.png" alt="0" border="0" />
                 </div>
                 <div class="second-container-ryt">
                     <h2 class="second-container-head">Landscaping</h2>
-                    <span class="second-container-desc"><b>First impressions: –</b> are 94% design related. We make sure your website “wows” them.</span>
+                    <span class="second-container-desc"><b>First impressions: -</b> are 94% design related. We make sure your website "wows" them.</span>
                     <div class="btn-outer">
                         <a class="read-more" href="#">Read More</a>
                     </div>
@@ -82,7 +86,7 @@
             </div>
             <div class="second-container-module">
                 <div class="second-container-left">
-                    <img src="" alt="0" border="0" />
+                    <img src="images/secondcontainer2.png" alt="0" border="0" />
                 </div>
                 <div class="second-container-ryt">
                     <h2 class="second-container-head">Remodeling</h2>
@@ -94,7 +98,7 @@
             </div>
             <div class="second-container-module">
                 <div class="second-container-left">
-                    <img src="" alt="0" border="0" />
+                    <img src="images/secondcontainer3.png" alt="0" border="0" />
                 </div>
                 <div class="second-container-ryt">
                     <h2 class="second-container-head">Plumbing</h2>
@@ -106,7 +110,164 @@
             </div>
         </div>
     </section>
-</div>
+    <section class="review-container">
+        <div class="container">
+            <div class="review-slider">
+                <h2 class="review-head">REVIEWS</h2>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <div class="review-slide">
+                              <div class="rating-star">
+                                  <img src="images/star.png" alt="0" border="0" />
+                                  <img src="images/star.png" alt="0" border="0" />
+                                  <img src="images/star.png" alt="0" border="0" />
+                                  <img src="images/star.png" alt="0" border="0" />
+                                  <img src="images/star.png" alt="0" border="0" />
+                              </div>
+                              <div class="review-desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn aliqua. Ut enim ad minim veniam.."</div>
+                              <span class="client-name">Dan Doe</span>
+                          </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-slide">
+                                <div class="rating-star">
+                                    <img src="images/star.png" alt="0" border="0" />
+                                    <img src="images/star.png" alt="0" border="0" />
+                                    <img src="images/star.png" alt="0" border="0" />
+                                    <img src="images/star.png" alt="0" border="0" />
+                                    <img src="images/star.png" alt="0" border="0" />
+                                </div>
+                                <div class="review-desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</div>
+                                <span class="client-name">Ziya Doe</span>
+                            </div>
+                        </div>
 
+                        <div class="item">
+                            <div class="review-slide">
+                                <div class="rating-star">
+                                    <img src="images/star.png" alt="0" border="0" />
+                                    <img src="images/star.png" alt="0" border="0" />
+                                    <img src="images/star.png" alt="0" border="0" />
+                                    <img src="images/star.png" alt="0" border="0" />
+                                    <img src="images/star.png" alt="0" border="0" />
+                                </div>
+                                <div class="review-desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</div>
+                                <span class="client-name">Sanet Doe</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="review-slide">
+                                <div class="rating-star">
+                                    <img src="images/star.png" alt="0" border="0" />
+                                    <img src="images/star.png" alt="0" border="0" />
+                                    <img src="images/star.png" alt="0" border="0" />
+                                    <img src="images/star.png" alt="0" border="0" />
+                                    <img src="images/star.png" alt="0" border="0" />
+                                </div>
+                                <div class="review-desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</div>
+                                <span class="client-name">Rents Doe</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="thirdcontainer">
+        <div class="container">
+            <ul class="thirdcontainer-outer">
+                <li>
+                    <div class="decription-container">
+                        <h3 class="decription-container-head">Websites Design Service</h3>
+                        <ul class="thirdcontainer-inr">
+                            <li>We Do It All For You</li>
+                            <li>Clear Call to Actions</li>
+                            <li>High Quality Content</li>
+                            <li>Gorgeous Visual Design</li>
+                            <li>Mobile Friendly Design</li>
+                            <li>Get Found on Google</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="decription-container">
+                        <h3 class="decription-container-head">Attract New Customers</h3>
+                        <ul class="thirdcontainer-inr">
+                            <li>Search Engine Optimization</li>
+                            <li>Social Media Integration</li>
+                            <li>Professional Copy writing</li>
+                            <li>Grow your business</li>
+                            <li>Mobile Friendly Design</li>
+                            <li>Get Found on Google</li>
+                            <li>Attract new customers</li>
+                            <li>Mobile Friendly Design</li>
+                            <li>Attract new customers</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="decription-container">
+                        <h3 class="decription-container-head">Attract New Customers</h3>
+                        <ul class="thirdcontainer-inr">
+                            <li>Free Consultation</li>
+                            <li>Cutting Edge Designs</li>
+                            <li>Your Budget's best friend</li>
+                            <li>The Experience You Want</li>
+                            <li>The Service You Expect</li>
+                            <li>The Quality You DESERVE!</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="get-in-touch">
+        <div class="container">
+            <h2 class="get-in-touch-head">GET IN TOUCH</h2>
+            <div class="get-in-touch-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae odio id sapien tempus elementum.Cras vitae odio id sapien tempus elementum.</div>
+            <div class="ofc-address">
+                <h3 class="ofc-add-head">OFFICE ADDRESS</h3>
+                <span class="ofc-add-inr">
+                     &#169; 2015 Website Design Company <br/> Zone-C, Lower Ground Floor, The <br/> Atrium at Quarkcity, Phase-VIII-B,<br/> Mohali, 160059 <br/> All rights reserved.
+                </span>
+            </div>
+            <div class="ofc-contact-no">
+                <h3 class="ofc-contact-head">CONTACT NUMBERS</h3>
+                <span class="phone-no">+1 561-459-5816</span>
+                <span class="phone-no">+1 ( +313 ) 132-433-2356</span>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-left">&#169; 2015 Website Design Company</div>
+            <div class="footer-right">
+                <ul class="footer-nav">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">TERMS OF SERVICES</a></li>
+                    <li><a href="#">PRIVACY POLICY</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">SITEMAP</a></li>
+                </ul>
+                <ul class="sm-icons">
+                    <li><a href="#"></a></li>
+                    <li class="twitter"><a href="#"></a></li>
+                    <li class="linked-in"><a href="#"></a></li>
+                    <li class="g-plus"><a href="#"></a></li>
+                    <li class="u-tube"><a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
